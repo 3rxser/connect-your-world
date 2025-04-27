@@ -12,7 +12,7 @@ const Index = () => {
     bio: "Digital creator & social media enthusiast. Sharing my journey in tech, travel, and more.",
     avatarUrl: "", // Add your photo URL here
     socialLinks: [
-      { platform: "Instagram", username: "yourname", url: "https://instagram.com/yourname" },
+      { platform: "Instagram", username: "yourname", url: "https://instagram.com/3rxser" },
       { platform: "Twitter", username: "yourname", url: "https://twitter.com/yourname" },
       { platform: "LinkedIn", username: "yourname", url: "https://linkedin.com/in/yourname" },
       { platform: "YouTube", username: "yourname", url: "https://youtube.com/@yourname" },
