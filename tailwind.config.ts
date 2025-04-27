@@ -100,7 +100,7 @@ export default {
 				'pulse-gradient': {
 					'0%, 100%': { 
 						backgroundPosition: '0% 50%',
-						opacity: '0.8'
+						opacity: '0.9'
 					},
 					'50%': { 
 						backgroundPosition: '100% 50%',
@@ -113,7 +113,7 @@ export default {
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'pulse-slow': 'pulse-slow 3s infinite',
 				'float': 'float 6s ease-in-out infinite',
-				'pulse-gradient': 'pulse-gradient 10s ease infinite'
+				'pulse-gradient': 'pulse-gradient 15s ease infinite'
 			}
 		}
 	},

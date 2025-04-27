@@ -43,11 +43,12 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-brand-purple/10 via-brand-blue/10 to-white animate-pulse-gradient">
+    <div className="min-h-screen bg-gradient-to-br from-brand-purple/20 via-brand-blue/20 to-pink-300/20 animate-pulse-gradient">
       {/* Background decoration */}
       <div className="fixed inset-0 -z-10 overflow-hidden">
-        <div className="absolute top-0 -left-4 w-72 h-72 bg-brand-purple opacity-10 rounded-full blur-3xl animate-pulse-slow"></div>
-        <div className="absolute bottom-0 -right-4 w-80 h-80 bg-brand-blue opacity-10 rounded-full blur-3xl animate-pulse-slow"></div>
+        <div className="absolute top-0 -left-4 w-72 h-72 bg-brand-purple opacity-20 rounded-full blur-3xl animate-pulse-slow"></div>
+        <div className="absolute bottom-0 -right-4 w-80 h-80 bg-brand-blue opacity-20 rounded-full blur-3xl animate-pulse-slow"></div>
+        <div className="absolute top-1/3 right-0 w-64 h-64 bg-pink-300 opacity-10 rounded-full blur-3xl animate-pulse-slow"></div>
       </div>
 
       <div className="max-w-lg mx-auto px-4 py-16">
