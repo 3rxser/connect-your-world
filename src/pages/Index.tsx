@@ -43,7 +43,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <div className="min-h-screen bg-gradient-to-br from-brand-purple/10 via-brand-blue/10 to-white animate-pulse-gradient">
       {/* Background decoration */}
       <div className="fixed inset-0 -z-10 overflow-hidden">
         <div className="absolute top-0 -left-4 w-72 h-72 bg-brand-purple opacity-10 rounded-full blur-3xl animate-pulse-slow"></div>
