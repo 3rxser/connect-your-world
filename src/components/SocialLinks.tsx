@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Facebook, Instagram, Twitter, Linkedin, Youtube, Mail, Link } from 'lucide-react';
+import { Facebook, Instagram, Twitter, Linkedin, Youtube, Mail, Link, Discord } from 'lucide-react';
 
 interface SocialLinkProps {
   platform: string;
@@ -15,14 +14,10 @@ const SocialLinks: React.FC<{ links: SocialLinkProps[] }> = ({ links }) => {
         return <Facebook size={20} />;
       case 'instagram':
         return <Instagram size={20} />;
-      case 'twitter':
-        return <Twitter size={20} />;
-      case 'linkedin':
-        return <Linkedin size={20} />;
-      case 'youtube':
-        return <Youtube size={20} />;
-      case 'email':
-        return <Mail size={20} />;
+      case 'discord':
+        return <Discord size={20} />;
+      case 'link':
+        return <Link size={20} />;
       default:
         return <Link size={20} />;
     }

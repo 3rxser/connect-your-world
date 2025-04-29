@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ProfileCard from '@/components/ProfileCard';
 import LinkCard from '@/components/LinkCard';
@@ -14,10 +13,9 @@ const Index = () => {
     avatarUrl: "", // Add your photo URL here
     socialLinks: [
       { platform: "Instagram", username: "yourname", url: "https://instagram.com/3rxser" },
-      { platform: "Twitter", username: "yourname", url: "https://twitter.com/yourname" },
-      { platform: "LinkedIn", username: "yourname", url: "https://linkedin.com/in/yourname" },
-      { platform: "YouTube", username: "yourname", url: "https://youtube.com/@yourname" },
-      { platform: "Email", username: "you@example.com", url: "mailto:you@example.com" }
+      { platform: "Facebook", username: "yourname", url: "https://facebook.com/yourname" },
+      { platform: "Discord", username: "yourname", url: "https://discord.com/users/yourname" },
+      { platform: "Link", username: "yourname", url: "https://yourwebsite.com" }
     ]
   };
 
