@@ -3,7 +3,7 @@ import React from 'react';
 import ProfileCard from '@/components/ProfileCard';
 import LinkCard from '@/components/LinkCard';
 import Footer from '@/components/Footer';
-import { Link, Mail } from 'lucide-react';
+
 
 const Index = () => {
   // Replace with your own info
