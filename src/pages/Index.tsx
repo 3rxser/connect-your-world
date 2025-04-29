@@ -3,7 +3,7 @@ import React from 'react';
 import ProfileCard from '@/components/ProfileCard';
 import LinkCard from '@/components/LinkCard';
 import Footer from '@/components/Footer';
-import { Link2, Mail, Users } from 'lucide-react';
+import { Link, Mail, User } from 'lucide-react';
 
 const Index = () => {
   // Replace with your own info
@@ -26,7 +26,7 @@ const Index = () => {
       title: "My Portfolio",
       href: "#",
       description: "Check out my latest work and projects",
-      icon: <Link2 size={20} />
+      icon: <Link size={20} />
     },
     {
       title: "Subscribe to my Newsletter",
@@ -38,7 +38,7 @@ const Index = () => {
       title: "Join my Community",
       href: "#",
       description: "Connect with like-minded people",
-      icon: <Users size={20} />
+      icon: <User size={20} />
     }
   ];
 
